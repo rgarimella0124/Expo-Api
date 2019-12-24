@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Playground",
+    "slug": "Experiments-Expo",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#ffffff",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "image": "src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["src/assets/**/*"],
+    "android": {
+      "package": "com.rgarimella.playground",
+      "versionCode": 2
+    },
+    "ios": {
+      "buildNumber": "0.0.1",
+      "bundleIdentifier": "com.rgarimella.playground",
+      "supportsTablet": true
+    }
+  }
+}
